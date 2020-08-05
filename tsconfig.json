@@ -17,10 +17,6 @@
     },
     "allowJs": true,
     "resolveJsonModule": true,
-    "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
-    "skipLibCheck": true
   },
   "include": [
     "src"
