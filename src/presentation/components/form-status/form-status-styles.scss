@@ -1,0 +1,14 @@
+@import "../../styles/colors.scss";
+
+.errorWrap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .spinner {
+        margin-top: 16px;
+    }
+    .error {
+        margin-top: 16px;
+        color: $primaryLight;
+    }
+}
