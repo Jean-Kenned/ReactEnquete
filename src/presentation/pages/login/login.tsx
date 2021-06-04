@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react'
 import Styles from './login-styles.scss'
 import { LoginHeader, Footer, Input, FormStatus } from '@/presentation/components'
 import Context from '@/presentation/contexts/form/form-context'
-import { Validation } from '@/presentation/protocols/validation'
+import { ValidationSpy } from '@/presentation/test'
 
 type Props = {
-  validation: Validation
+  validation: ValidationSpy
 }
 
 const Login: React.FC<Props> = ({ validation }: Props) => {
